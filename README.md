@@ -1,2 +1,2 @@
 # actividades-primer-parcial
-Estas son mis códigos del 1er parcial
+Estos son mis códigos del 1er parcial
