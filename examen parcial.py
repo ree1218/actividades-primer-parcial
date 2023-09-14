@@ -1,0 +1,32 @@
+def Calculadora_imc():
+  print("Hola! Soy un perrito que calcula TU IMC.")
+  print("Por favor,ingresa tu peso.")
+  peso1 = input()
+  print("Muy bien! Ahora, ingresa tu altura.")
+  altura1 = input()
+  x1 = int(peso1)/ float(altura1)**2
+  print("Bien! Tu IMC es de",x1)
+  print("Ahora calculemos otro IMC para llegar a tu promedio.Inserta otro peso.")
+  peso2 = input()
+  print("Bien! Inserta tu altura nuevamente.")
+  altura2 = input()
+  x2 = int(peso2)/ float(altura2)**2
+  print("Bien hecho! Tu segundo IMC es de",x2,"y tu primer IMC es de",x1)
+  print("Ahora saquemos tu promedio. Inserta tu primer IMC, solo los primeros tres")
+  IMC1 = input()
+  print("Ahora el segundo")
+  IMC2 = input()
+  x3 = float(IMC1)+ float(IMC2)/2
+  print("De acuerdo,tu promedio es de",x3)
+  print("Calcularemos tambien la tendencia de cambio en tu IMC.")
+  print("¿Cuál fue tu promedio?")
+  promedio = input()
+  print("Ingresa nuevamente tus IMC's.")
+  IMC1 = input()
+  IMC2 = input()
+  x4 = float(IMC1)-float(IMC2)/float(promedio)
+  print ("Tu tendencia de cambio en el IMC es de",x4)
+  print("Vas muy bien! Sigue cuidando de tu salud y bienestar.")
+  print("No hagas caso omiso de lo que digan tus doctores y así tendrás buena salud.")
+  
+Calculadora_imc()
